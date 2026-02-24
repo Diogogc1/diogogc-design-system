@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { DiogogcDesignSystemLib } from '../../../diogogc-design-system-lib/src/lib/diogogc-design-system-lib';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [DiogogcDesignSystemLib],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
